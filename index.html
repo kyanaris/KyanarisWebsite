@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kyanaris | Rainy Weather</title>
+  <link rel="icon" type="image/x-icon" href="img/favicon.ico"> 
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <a href="#"><img src="img/logo.png" alt="Logo" class="nav-logo"></a>
+      <a href="#"><i class="fa-solid fa-house"></i> Главная</a>
+      <a href="#"><i class="fa-solid fa-gear"></i> Модификации</a>
+    </nav>
+  </header>
+  <section class="hero">
+    <img src="img/rainyweather/icontitlerainyweather.png" alt="Rain Icon">
+    <h1>RAINY WEATHER</h1>
+  </section>
+  <section class="content">
+    <h2>Данная модификация переносит эффект дождя из режима «Ваффентрагера: Реванш» прямо в обычные сражения мира танков!</h2>
+    <h2>Информация по модификации:</h2>
+    <ul>
+      <li>Дождь на картах (на данный момент на картах есть нормальный, лёгкий и отсутствие дождя)</li>
+      <li>Эффект капель на экране (есть вариант без этого эффекта)</li>
+      <li>Звуковые эффекты окружающей среды</li>
+    </ul>
+    <button class="download-btn" id="openModal">
+      <i class="fa-solid fa-download"></i> СКАЧАТЬ
+    </button>
+    <h2>Что нового</h2>
+    <ul>
+      <li>Обновлён до актуальной версии игры</li>
+    </ul>
+    <h2>Инструкция по установке</h2>
+    <ul>
+      <li>Скачайте файл</li>
+      <li>Скопируйте всё из файла в папку игры</li>
+      <li>Запустите игру — мод активируется автоматически</li>
+    </ul>
+  </section>
+  <footer>
+    © 2025 Kyanaris. Все права защищены.
+  </footer>
+  <div class="modal" id="modal">
+    <div class="modal-content">
+      <h3>
+        <i class="fa-solid fa-wand-magic-sparkles"></i> Выберите вариант загрузки
+      </h3>
+      <p class="modal-desc">С каплями или без капель на экране</p>
+      
+      <div class="modal-buttons">
+        <a href="https://github.com/KyanarisOfficial/KyanarisWebsite/releases/download/v0.2.5/RainyWeatherWithDrips.zip" class="modal-btn">С КАПЛЯМИ</a>
+        <a href="https://github.com/KyanarisOfficial/KyanarisWebsite/releases/download/v0.2.5/RainyWeatherWithoutDrips.zip" class="modal-btn">БЕЗ КАПЕЛЬ</a>
+      </div>
+      <button class="modal-close" id="closeModal">
+        <i class="fa-solid fa-xmark"></i>
+      </button>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
